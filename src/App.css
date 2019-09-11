@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.ticker-name {
+  cursor: pointer;
+}
+.pitcher.modal {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.line-chart {
+  fill: "none";
+  stroke: "#ffab00";
+  stroke-width: 3;
+}
+
+.x-axis path {
+  fill: none;
+  stroke: none;
+  stroke-width: 2px;
+  shape-rendering: crispEdges;
+}
+
+.x-axis line {
+  stroke: none;
+}
+
+.y-axis path {
+  fill: none;
+  stroke: white;
+}
+
+.y-axis line {
+  fill: none;
+  stroke: #dcd9d3;
+  stroke-width: 2px;
+  shape-rendering: crispEdges;
+  opacity: 0.7;
+  stroke-dasharray: 3, 3;
+}
